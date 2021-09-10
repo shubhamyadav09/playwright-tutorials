@@ -27,4 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run tests
-        run: npx playwright tests
+        run: |
+        npm install
+        npx playwright tests
