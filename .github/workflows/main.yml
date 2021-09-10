@@ -15,7 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run playwright tests
+      - name: Install npm and playwright
         run: |
+          npm install
           npx playwright install
+          
+      - name: Run playwright tests
+        run:
           npx playwright test
