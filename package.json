@@ -1,0 +1,22 @@
+{
+  "name": "playwright-tutorials",
+  "version": "1.0.0",
+  "description": "Playwright tutorial for different scenarios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamyadav09/playwright-tutorials.git"
+  },
+  "author": "Shubham Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamyadav09/playwright-tutorials/issues"
+  },
+  "homepage": "https://github.com/shubhamyadav09/playwright-tutorials#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.14.1"
+  }
+}
